@@ -3,27 +3,79 @@
   <main class="main" role="main">
     
     <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
-        <?= $page->intro()->kirbytext() ?>
+      <div id="background">
+        <h1>1 0 11 0 1</h1>
       </div>
-      <hr />
     </header>
 
-    <div class="text wrap">
-      <?= $page->text()->kirbytext() ?>
-    </div>
-  
-    <section class="projects-section">
-      
-      <div class="wrap wide">
-        <h2>Latest Projects</h2>
-        <?php snippet('showcase', ['limit' => 3]) ?>
-        <p class="projects-section-more"><a href="<?= page('projects')->url() ?>" class="btn">show all projects &hellip;</a></p>
-      </div>
-      
+    <p>
+      here goes the project text
+    </p>
+
+    <section id="project">
+      <section id="data">
+        <ul>
+          <li><span></span><span></span></li>
+          <li><span></span><span></span></li>
+          <li><span></span><span></span></li>
+          <li><span></span><span></span></li>
+          <li><span></span><span></span></li>
+        </ul>
+      </section>
+      <section id="text">
+        <h2>Project</h2>
+        <h3></h3>
+        <p></p>
+        <h3></h3>
+        <h3></h3>
+      </section>
     </section>
 
+    <section id="calendar">
+      <ul>
+        <li>
+          <div></div>
+          <div></div>
+          <div></div>
+        </li>
+        <li>
+          <div></div>
+          <div></div>
+          <div></div>
+        </li>
+        <li>
+          <div></div>
+          <div></div>
+          <div></div>
+        </li>
+        <li>
+          <div></div>
+          <div></div>
+          <div></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="mail">
+      <h3></h3>
+      <form action="index.php">
+        <input type="text" placeholder="Enter your email address">
+        <input type="submit" value="Subscribe">
+      </form>
+    </section>
+
+    <section id="organisatzion">
+      <ul>
+        <li>
+          <div></div>
+          <div></div>
+        </li>
+        <li>
+          <div></div>
+          <div></div>
+        </li>
+      </ul>
+    </section>
   </main>
 
 <?php snippet('footer') ?>

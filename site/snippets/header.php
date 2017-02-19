@@ -13,14 +13,14 @@
 </head>
 <body>
 
-  <header class="header wrap wide" role="banner">
-    <div class="grid">
-
-      <div class="branding column">
-        <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
-      </div>
-
-      <?php snippet('menu') ?>
-
-    </div>
+  <header>
+    <div class="logo"></div>
+    <nav>
+      <ul>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#calendar">Calendar</a></li>
+        <li><a href="#organization">Organization</a></li>
+        <li><a href="#contactus">Contact us</a></li>
+      </ul>
+    </nav>
   </header>
