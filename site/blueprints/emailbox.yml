@@ -1,0 +1,16 @@
+title: Email Box
+
+files: false
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type: text
+  placeholder:
+    label: Placeholder for input
+    type: text
+  button_text:
+    label: Button text
+    type: text

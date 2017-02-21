@@ -1,0 +1,10 @@
+title: Footer
+
+files: false
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type: text

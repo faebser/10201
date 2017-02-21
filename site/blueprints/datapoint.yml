@@ -1,15 +1,14 @@
 title: Datapoint
 
+files: false
+
 pages: false
-files: False
 
 fields:
   title:
     label: Number
-    type: title
+    type:  text
 
-    label: Number
-    type: text
-
+  byline:
     label: Byline
-    type: text
+    type: textarea

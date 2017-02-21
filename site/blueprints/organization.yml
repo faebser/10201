@@ -1,0 +1,19 @@
+title: organization
+
+files: image
+
+pages: false
+
+fields:
+  description:
+    label: Description
+    type: textarea
+
+  link:
+    label: Link
+    type: text
+    translate: false
+
+  link_text:
+    label: Link_text
+    type: text

@@ -1,0 +1,19 @@
+title: Date
+
+files: false
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type: text
+  subtitle:
+    label: Subtitle
+    type: text
+  start:
+    label: Date
+    type: text
+  target:
+    label: Link
+    type: text
