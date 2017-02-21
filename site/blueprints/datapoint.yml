@@ -1,0 +1,15 @@
+title: Datapoint
+
+pages: false
+files: False
+
+fields:
+  title:
+    label: Number
+    type: title
+
+    label: Number
+    type: text
+
+    label: Byline
+    type: text
