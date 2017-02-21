@@ -8,13 +8,15 @@ fields:
   title:
     label: Title
     type:  text
-    width: 3/4
 
-  year:
-    label: Year
-    type:  text
-    width: 1/4
+  heading_1:
+    label: Heading
+    type: textarea
 
-  text:
-    label: Text
-    type:  textarea
+  normal_text:
+    label: Text block
+    type: textarea
+
+  heading_2:
+    label: Bold Text at the end
+    type: textarea
