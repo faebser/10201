@@ -1,0 +1,7 @@
+title: Introduction
+pages: false
+files: false
+fields:
+  text:
+    label: Text
+    type:  textarea

@@ -1,6 +1,6 @@
 title: Site
 
-pages: default
+pages: true
 
 fields:
   title:
