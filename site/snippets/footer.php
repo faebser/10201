@@ -1,6 +1,6 @@
-  <footer role="contentinfo">
-    <h3></h3>
-    <p></p>
+  <footer role="contentinfo" id="contactus">
+    <h2>Contact us</h2>
+    <p>Basdfasdf</p>
     <p></p>
     <p></p>
   </footer>
