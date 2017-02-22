@@ -5,5 +5,7 @@
     <p></p>
   </footer>
 
+  <script src="assets/js/zepto.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

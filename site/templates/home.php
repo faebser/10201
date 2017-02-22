@@ -2,15 +2,16 @@
 
   <main class="main" role="main">
     
-    <header class="wrap">
+    <header>
       <div id="background">
         <h1>1 0 11 0 1</h1>
       </div>
+      <p>
+        here goes the project text
+      </p>
     </header>
 
-    <p>
-      here goes the project text
-    </p>
+    
 
     <section id="project">
       <section id="data">
