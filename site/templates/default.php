@@ -34,43 +34,76 @@
     </section>
 
     <section id="calendar">
+    <h2>Calendar</h2>
       <ul>
         <li>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="date">
+            <span>1 March</span>
+            <span>09.00</span>
+          </div>
+          <div>
+            <span>Launch of 10201 project</span>
+            <span>MuDA Zürich</span>
+          </div>
+          <div>
+            <a href="#more">More <span>&rarr;</span></a>
+          </div>
         </li>
         <li>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="date">
+            <span>1 March</span>
+            <span>09.00</span>
+          </div>
+          <div>
+            <span>Launch of 10201 project</span>
+            <span>MuDA Zürich</span>
+          </div>
+          <div>
+            <a href="#more">More <span>&rarr;</span></a>
+          </div>
         </li>
         <li>
-          <div></div>
-          <div></div>
-          <div></div>
-        </li>
-        <li>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="date">
+            <span>1 March</span>
+            <span>09.00</span>
+          </div>
+          <div>
+            <span>Launch of 10201 project</span>
+            <span>MuDA Zürich</span>
+          </div>
+          <div>
+            <a href="#more">More <span>&rarr;</span></a>
+          </div>
         </li>
       </ul>
     </section>
 
     <section id="mail">
-      <h3></h3>
-      <form action="index.php">
-        <input type="text" placeholder="Enter your email address">
-        <input type="submit" value="Subscribe">
-      </form>
+      <div>
+        <h2>More details soon! Subscribe to the newsletter</h2>
+        <form action="index.php">
+          <input type="email" placeholder="Enter your email address">
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
     </section>
 
-    <section id="organisatzion">
+    <section id="organization">
+      <h2>The organization</h2>
       <ul>
         <li>
-          <div></div>
-          <div></div>
+          <div>
+            <p>A project by</p>
+            <img src="" alt="">
+            <img src="" alt="">
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <a href="#moar">More about MuDa &rarr;</a>
+          </div>
         </li>
         <li>
           <div></div>
@@ -79,9 +112,5 @@
       </ul>
     </section>
   </main>
-
-  <h1>Test</h1>
-
-  
 
 <?php snippet('footer') ?>

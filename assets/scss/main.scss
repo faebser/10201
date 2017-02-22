@@ -60,6 +60,12 @@ html {
   box-sizing: inherit;
 }
 
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
 html {
 	font-size: calc(0.5em + 1vw);
 	margin: 0;
@@ -197,7 +203,7 @@ section#project {
 
 
 			li {
-				margin-bottom: 2.5rem;
+				margin-bottom: 3rem;
 				display: inline-flex;
 				flex-direction: column;
 
@@ -222,12 +228,197 @@ section#project {
 	}
 
 	section#text {
+		font-family: 'etter-book';
+
+		h2 {
+			font-family: 'etter-medium';
+		}
 		h3 {
 			@extend %regular;	
 			font-weight: normal;
 		}
 		p {
 			@extend %small;
+		}
+	}
+}
+
+section#calendar {
+	@extend %container;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'etter-medium';
+	margin-top: 6rem;
+
+	h2 {
+		font-weight: normal;
+		@extend %regular;
+		color: $blue;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		color: $white;
+		li {
+			background-color: $gray;
+			color: $white;
+			display: flex;
+			flex-direction: row;
+			padding: 1rem 0.75rem;
+			margin-bottom: 0.75rem;
+			& > div {
+				font-family: 'etter-book';
+				display: inline-block;
+				width: 30%;
+				padding-right: 3rem;
+				display: flex;
+				flex-direction: column;
+				text-align: right;
+				justify-content: center;
+
+				span {
+					font-family: 'etter-medium';
+					@extend %regular;
+				}
+				span + span {
+					font-family: 'etter-book';
+					@extend %small;
+				}
+				a {
+					color: $white;
+					@extend %small;
+					border: 4px solid $black;
+					text-align: center;
+					display: block;
+					padding: 0.5rem 0.5rem;
+					&:hover {
+						background-color: $light-gray;
+					}
+					span {
+						@extend %small;
+						color: $black;
+						margin-left: 10px;
+					}
+				}
+
+			}
+			& > div + div {
+				width: 55%;
+				text-align: left;
+				padding-right: 0;
+			}
+			& > div + div + div {
+				width: 15%;
+				text-align: left;
+				padding-right: 0;
+			}
+			.date > span {
+				
+			}
+			.date > span + span {
+				
+			}
+		}
+	}
+}
+
+section#mail {
+	color: $blue;
+	@extend %container;
+	margin-top: 1rem;
+
+	div {
+		background-color: $dark-gray;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1.5rem 0;
+	}
+
+	h2 {
+		@extend %regular;
+		font-family: 'etter-medium';
+		font-weight: normal;
+		margin-top: 0;
+	}
+
+	form {
+		input {
+			border: 4px solid $blue;
+			background: $blue;
+			@extend %regular;
+			color: $white;
+			font-family: 'etter-book';
+			padding: 0.2rem 3rem;
+
+			&::placeholder {
+				color: $white;
+			}
+			&::-moz-placeholder {
+				color: $white;
+			}
+			&::-webkit-input-placeholder {
+				color: $white;
+			}
+			&:-ms-input-placeholder {
+				color: $white;
+			}
+		}
+
+		input[type=submit] {
+			background-color: $dark-gray;
+			color: $blue;
+			border: 4px solid $black;
+			padding: 0.2rem 1rem;
+			margin-left: 1rem;
+			cursor: pointer;
+			&:hover {
+				background-color: $blue;
+				color: $white;
+			}
+		}
+	}
+}
+
+section#organization {
+	@extend %container;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: $blue;
+	margin-top: 6rem;
+
+	h2 {
+		@extend %regular;
+		font-family: 'etter-medium';
+		font-weight: normal;
+	}
+
+	li {
+		display: flex;
+		div {
+			width: 50%;
+			@extend %regular;
+		}
+		div p {
+			@extend %small;
+			font-family: 'etter-book';
+		}
+		div + div p {
+			@extend %regular;
+
+		}
+		div a {
+			font-family: 'etter-book';
+			display: inline-block;
+			@extend %regular;
+			color: $black;
+			padding: 0.2rem 1rem;
+			border: 4px solid $black;
 		}
 	}
 }

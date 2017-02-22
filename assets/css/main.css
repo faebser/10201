@@ -15,11 +15,11 @@ All rights reserved.
   src: url("../fonts/EtterCI-Medium.eot") format("embedded-opentype"), url("../fonts/EtterCI-Medium.woff") format("woff"), url("../fonts/EtterCI-Medium.ttf") format("truetype"), url("../fonts/EtterCI-Medium.svg#CircularStdMediumRegular") format("svg");
   font-weight: normal;
   font-style: normal; }
-section#project section#text p {
+section#project section#text p, section#calendar ul li > div span + span, section#calendar ul li > div a, section#calendar ul li > div a span, section#organization li div p {
   font-size: 0.67rem;
   line-height: 1.4; }
 
-body > header nav ul li, body main header p, section#project h2, section#project section#data ul li > span + span, section#project section#text h3 {
+body > header nav ul li, body main header p, section#project h2, section#project section#data ul li > span + span, section#project section#text h3, section#calendar h2, section#calendar ul li > div span, section#mail h2, section#mail form input, section#organization h2, section#organization li div, section#organization li div + div p, section#organization li div a {
   font-size: 1rem;
   line-height: 1.4; }
 
@@ -33,6 +33,11 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
 html {
   font-size: calc(0.5em + 1vw);
   margin: 0;
@@ -43,7 +48,7 @@ body {
   padding: 0; }
 
 body main,
-body footer, body main header p, section#project {
+body footer, body main header p, section#project, section#calendar, section#mail, section#organization {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
@@ -127,7 +132,7 @@ section#project {
     display: flex;
     flex-direction: column; }
     section#project section#data ul li {
-      margin-bottom: 2.5rem;
+      margin-bottom: 3rem;
       display: inline-flex;
       flex-direction: column; }
     section#project section#data ul li > span {
@@ -139,7 +144,126 @@ section#project {
       display: inline; }
       section#project section#data ul span:hover {
         background-color: #ffff00; }
-  section#project section#text h3 {
+  section#project section#text {
+    font-family: 'etter-book'; }
+    section#project section#text h2 {
+      font-family: 'etter-medium'; }
+    section#project section#text h3 {
+      font-weight: normal; }
+
+section#calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'etter-medium';
+  margin-top: 6rem; }
+  section#calendar h2 {
+    font-weight: normal;
+    color: #0000ee; }
+  section#calendar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #fff; }
+    section#calendar ul li {
+      background-color: #808080;
+      color: #fff;
+      display: flex;
+      flex-direction: row;
+      padding: 1rem 0.75rem;
+      margin-bottom: 0.75rem; }
+      section#calendar ul li > div {
+        font-family: 'etter-book';
+        display: inline-block;
+        width: 30%;
+        padding-right: 3rem;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        justify-content: center; }
+        section#calendar ul li > div span {
+          font-family: 'etter-medium'; }
+        section#calendar ul li > div span + span {
+          font-family: 'etter-book'; }
+        section#calendar ul li > div a {
+          color: #fff;
+          border: 4px solid #000;
+          text-align: center;
+          display: block;
+          padding: 0.5rem 0.5rem; }
+          section#calendar ul li > div a:hover {
+            background-color: #b7b7b7; }
+          section#calendar ul li > div a span {
+            color: #000;
+            margin-left: 10px; }
+      section#calendar ul li > div + div {
+        width: 55%;
+        text-align: left;
+        padding-right: 0; }
+      section#calendar ul li > div + div + div {
+        width: 15%;
+        text-align: left;
+        padding-right: 0; }
+
+section#mail {
+  color: #0000ee;
+  margin-top: 1rem; }
+  section#mail div {
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0; }
+  section#mail h2 {
+    font-family: 'etter-medium';
+    font-weight: normal;
+    margin-top: 0; }
+  section#mail form input {
+    border: 4px solid #0000ee;
+    background: #0000ee;
+    color: #fff;
+    font-family: 'etter-book';
+    padding: 0.2rem 3rem; }
+    section#mail form input::placeholder {
+      color: #fff; }
+    section#mail form input::-moz-placeholder {
+      color: #fff; }
+    section#mail form input::-webkit-input-placeholder {
+      color: #fff; }
+    section#mail form input:-ms-input-placeholder {
+      color: #fff; }
+  section#mail form input[type=submit] {
+    background-color: #666666;
+    color: #0000ee;
+    border: 4px solid #000;
+    padding: 0.2rem 1rem;
+    margin-left: 1rem;
+    cursor: pointer; }
+    section#mail form input[type=submit]:hover {
+      background-color: #0000ee;
+      color: #fff; }
+
+section#organization {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0000ee;
+  margin-top: 6rem; }
+  section#organization h2 {
+    font-family: 'etter-medium';
     font-weight: normal; }
+  section#organization li {
+    display: flex; }
+    section#organization li div {
+      width: 50%; }
+    section#organization li div p {
+      font-family: 'etter-book'; }
+    section#organization li div a {
+      font-family: 'etter-book';
+      display: inline-block;
+      color: #000;
+      padding: 0.2rem 1rem;
+      border: 4px solid #000; }
 
 /*# sourceMappingURL=main.css.map */
