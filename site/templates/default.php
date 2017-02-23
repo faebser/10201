@@ -136,6 +136,14 @@ Located in Zurich West — a hot spot for science, technology and art — the Mu
         </li>
       </ul>
     </section>
+
+    <?php foreach($pages->visible() as $section): ?>
+      <?php echo $section->uid() ?>
+      <?php echo $section->title()->html() ?>
+      <?php echo $section->text()->kirbytext() ?>
+      <?php echo $section->heading_1()->kirbytext() ?>
+      
+    <?php endforeach ?>
   </main>
 
 <?php snippet('footer') ?>

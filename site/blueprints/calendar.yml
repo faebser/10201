@@ -4,4 +4,7 @@ files: false
 
 pages: date
 
-fields: false
+fields:
+  nav_title:
+    label: Menu Title
+    type: text

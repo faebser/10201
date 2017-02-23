@@ -11,4 +11,4 @@ fields:
 
   byline:
     label: Byline
-    type: textarea
+    type: text

@@ -7,4 +7,8 @@ email: 12@23.ch
 language: en
 role: admin
 history:
-  - home
+  - project
+  - project/561
+  - project/43
+  - project/138
+  - project/32

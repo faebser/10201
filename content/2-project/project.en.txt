@@ -1,0 +1,29 @@
+Title: The project
+
+----
+
+Heading-1: Exploring the definition of what a museum’s roles are within the public sphere, the MuDA wants to develop a project embracing and bridging communities, starting with the zeros and ones in our own physical neighbourhood of Kreis 5.
+
+----
+
+Normal-text: 
+
+Kicking off in March, I O O I ² is a four phase project that focuses on learning about data literacy 
+whilst highlighting topics of interest within our immediate community. The data workshops are quests to map uncharted territory, discover hidden stories and solve unsolved mysteries about our neighbourhood in the Land of Data. Participants will brainstorm what information helps us be more aware of each other in a local community, be guided through a set of basic data literacy skills, share/clean current data current sources, and discuss potential topics of interest to create new data sets to explore!
+
+Gritty vistas of the railroad tracks on one side and the Limmat River on the other, Kreis 5 is made of an eclectic mix of businesses, flats, schools, art galleries, hip restaurants and parks randomly squeezed in between an asylum center planned for 2018, growing families, gridlocked traffic, increasing rent and decreasing industry. Amid the ongoing construction boom, the city expects the population in Zurich West to jump more than 25 per cent up until to 2022.  
+
+Beyond the statistics that we read everyday, what is really occurring underneath, within and around all that WE know and experience in Kreis 5? What does it mean to be part of this once abandoned industrial quartier which has undergone a remarkable transformation in recent decades? What are the implications of raising rent, an asylum center, trendy businesses and a growing population? How many trucks pass by the MuDA on a daily basis?
+
+----
+
+Heading-2: 
+
+The MuDA will become a platform for this project with aims to help spread data literacy through participatory training, workshops and online tools assisting people to differentiate facts from opinions, statistics from statements - and form enlightened views through weighted analysis, critical thinking, and by asking their own questions. Later the data will be visualised through diverse mediums for the public and community stakeholders to experience.
+
+
+Data - Filter - Visualise - Communicate
+
+----
+
+Nav-title: Project

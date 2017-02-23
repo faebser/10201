@@ -20,6 +20,15 @@
     </div>
     <nav>
       <ul>
+      <?php foreach($pages->visible() as $section): ?>
+        <?php if ($section->nav_title()): ?>
+          <li>
+            <a href="#<?php echo $section->uid() ?>">
+              <?php echo $section->nav_title()->html() ?>
+            </a>
+          </li>
+        <?php endif ?>
+      <?php endforeach ?>
         <li><a href="#project">Project</a></li>
         <li><a href="#calendar">Calendar</a></li>
         <li><a href="#organization">Organization</a></li>

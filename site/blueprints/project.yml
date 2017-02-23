@@ -2,12 +2,16 @@ title: Project
 
 files: false
 
-pages: false
+pages: Datapoint
 
 fields:
   title:
     label: Title
     type:  text
+
+  nav_title:
+    label: Menu Title
+    type: text
 
   heading_1:
     label: Heading
