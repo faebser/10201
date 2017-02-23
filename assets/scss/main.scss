@@ -34,7 +34,7 @@ All rights reserved.
 // sizes 
 
 %small {
-	font-size: 0.67rem;
+	font-size: 0.8rem;
 	line-height: 1.4;
 }
 
@@ -219,6 +219,7 @@ section#project {
 
 			span {
 				display: inline;
+				padding-right: 1.5rem;
 				&:hover {
 					background-color: $yellow;
 				}
@@ -288,6 +289,7 @@ section#calendar {
 					@extend %small;
 				}
 				a {
+					text-decoration: none;
 					color: $white;
 					@extend %small;
 					border: 4px solid $black;
@@ -402,17 +404,23 @@ section#organization {
 		div {
 			width: 50%;
 			@extend %regular;
+			padding-right: 3rem;
+		}
+		div + div {
+			padding-right: 0;
 		}
 		div p {
 			@extend %small;
 			font-family: 'etter-book';
+			margin-bottom: 0;
 		}
 		div + div p {
 			@extend %regular;
-
+			margin-bottom: 1.5rem;
 		}
 		div a {
 			font-family: 'etter-book';
+			text-decoration: none;
 			display: inline-block;
 			@extend %regular;
 			color: $black;
@@ -421,6 +429,11 @@ section#organization {
 			&:hover {
 				background-color: $light-gray;
 			}
+		}
+
+		div img {
+			max-width: 100%;
+			margin-bottom: 1rem;
 		}
 	}
 }

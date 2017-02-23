@@ -16,7 +16,7 @@
   <header>
     <div class="logo">
       <img src="assets/images/muda_logo_black.png" alt="">
-      <span>School of Data</span>
+      <!-- <span>School of Data</span> -->
     </div>
     <nav>
       <ul>
