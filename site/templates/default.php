@@ -4,20 +4,11 @@
     
    <?php
       foreach($pages->visible() as $section) {
-        echo $section->uid() . " ";
-        snippet($section->uid(), array('data' => $section));
+        snippet($section->intendedTemplate(), array('data' => $section));
       }
     ?>
 
-    <section id="mail">
-      <div>
-        <h2>More details soon! Subscribe to the newsletter</h2>
-        <form action="index.php">
-          <input type="email" placeholder="Enter your email address">
-          <input type="submit" value="Subscribe">
-        </form>
-      </div>
-    </section>
+
 
     <section id="organization">
       <h2>The organization</h2>
@@ -47,18 +38,6 @@ Located in Zurich West — a hot spot for science, technology and art — the Mu
         </li>
       </ul>
     </section>
-
-
-
-    <?php foreach($pages->visible() as $section): ?>
-        <?php if ($section->nav_title()): ?>
-          <li>
-            <a href="#<?php echo $section->uid() ?>">
-              <?php echo $section->nav_title()->html() ?>
-            </a>
-          </li>
-        <?php endif ?>
-      <?php endforeach ?>
   </main>
 
 <?php snippet('footer') ?>

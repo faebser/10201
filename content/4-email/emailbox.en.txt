@@ -1,0 +1,9 @@
+Title: More details soon! Subscribe to the newsletter
+
+----
+
+Placeholder: Enter your email address
+
+----
+
+Button-text: Subscribe
