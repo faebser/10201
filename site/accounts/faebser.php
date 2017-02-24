@@ -7,8 +7,9 @@ email: 12@23.ch
 language: en
 role: admin
 history:
-  - project
-  - project/561
-  - project/43
-  - project/138
-  - project/32
+  - >
+    calendar/visualization-and-panel-discussion
+  - calendar/data-expedition-workshops
+  - calendar/school-of-data-workshops
+  - calendar/launch-of-i-0-ii-0-i
+  - calendar

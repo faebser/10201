@@ -14,6 +14,9 @@ fields:
   start:
     label: Date
     type: text
+  start_subtitle:
+    label: Date byline
+    type: text
   target:
     label: Link
     type: text
