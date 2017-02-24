@@ -1,12 +1,9 @@
 <section id="project">
       <section id="data">
         <ul>
-          <li><span>15,065</span><span>total population in Kreis 5</span></li>
-          <li><span>32%</span><span>foreigners living in Kreis 5</span></li>
-          <li><span>138</span><span>refugees living and/or taking asylum in Kreis 5</span></li>
-          <li><span>2691.43</span><span>ha2 of Kreis 5 used for garden surfaces
-</span></li>
-          <li><span>450,561</span><span>people working in Kreis 5</span></li>
+          <?php foreach($data->children()->visible() as $datapoint): ?>
+          <li><span><?php echo $datapoint->title()->text(); ?></span><span><?php echo $datapoint->byline()->text(); ?></span></li>
+          <?php endforeach ?>
         </ul>
       </section>
       <section id="text">
