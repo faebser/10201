@@ -21,7 +21,7 @@
     <nav>
       <ul>
       <?php foreach($pages->visible() as $section): ?>
-        <?php if ($section->nav_title()): ?>
+        <?php if ($section->nav_title("sackgsicht") != ""): ?>
           <li>
             <a href="#<?php echo $section->uid() ?>">
               <?php echo $section->nav_title()->html() ?>
