@@ -5,6 +5,10 @@ files: image
 pages: false
 
 fields:
+  byline:
+    label: Image byline
+    type: text
+
   description:
     label: Description
     type: textarea
@@ -15,5 +19,5 @@ fields:
     translate: false
 
   link_text:
-    label: Link_text
+    label: Link text
     type: text

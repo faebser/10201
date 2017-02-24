@@ -5,6 +5,9 @@ files: false
 pages: organization
 
 fields:
+  title:
+    label: Title
+    type: text
   nav_title:
     label: Menu Title
     type: text
