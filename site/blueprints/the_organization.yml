@@ -1,7 +1,10 @@
-title: The organization
+title: Organizations
 
 files: false
 
 pages: organization
 
-fields: false
+fields:
+  nav_title:
+    label: Menu Title
+    type: text

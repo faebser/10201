@@ -1,0 +1,19 @@
+Description: 
+
+The Museum of Digital Art is Europe's first physical and virtual museum dedicated to digital arts — an open space connecting creativity and technology. 
+
+Located in Zurich West — a hot spot for science, technology and art — the MuDA aims to inspire and delight its audience with playful and poetic digital art installations run by 0s and 1s, but also serves as a platform to discuss and explore the intricate relationships between data, algorithms and society. 
+
+The Museum of Digital Art is a project initiated by the Digital Arts Association (DAA), a non-profit organisation.
+
+----
+
+Link: https://muda.com
+
+----
+
+Link-text: More about MuDA
+
+----
+
+Title: muda
