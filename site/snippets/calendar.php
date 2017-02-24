@@ -1,57 +1,20 @@
 <section id="calendar">
-  <h2>Calendar</h2>
-    <ul>
+  <h2><?php echo $data->title()->text(); ?></h2>
+  <ul>
+    <?php foreach($data->children()->visible() as $date): ?>
       <li>
         <div class="date">
-          <span>1 March</span>
-          <span></span>
+          <span><?php echo $date->start()->text(); ?></span>
+          <span><?php echo $date->start_subtitle()->text(); ?></span>
         </div>
         <div>
-          <span>Launch of I 0 II 0 I</span>
-          <span>MuDA Zürich</span>
+          <span><?php echo $date->title()->text(); ?></span>
+          <span><?php echo $date->subtitle()->text(); ?></span>
         </div>
         <div>
-          <a href="#more">More <span>&rarr;</span></a>
+          <a href="<?php echo $date->target()->text(); ?>"><?php echo $date->target_text()->text(); ?> <span>&rarr;</span></a>
         </div>
       </li>
-      <li>
-        <div class="date">
-          <span>1-5 March</span>
-          <span></span>
-        </div>
-        <div>
-          <span>School of Data Workshops</span>
-          <span>MuDA Zürich</span>
-        </div>
-        <div>
-          <a href="#more">More <span>&rarr;</span></a>
-        </div>
-      </li>
-      <li>
-        <div class="date">
-          <span>TBC</span>
-          <span></span>
-        </div>
-        <div>
-          <span>Data Expedition Workshops</span>
-          <span>MuDA Zürich</span>
-        </div>
-        <div>
-          <a href="#more">More <span>&rarr;</span></a>
-        </div>
-      </li>
-      <li>
-        <div class="date">
-          <span>TBC</span>
-          <span></span>
-        </div>
-        <div>
-          <span>Visualization and Panel Discussion</span>
-          <span>MuDA Zürich</span>
-        </div>
-        <div>
-          <a href="#more">More <span>&rarr;</span></a>
-        </div>
-      </li>
-    </ul>
-  </section>
+    <?php endforeach ?>
+  </ul>
+</section>

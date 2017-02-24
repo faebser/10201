@@ -15,3 +15,11 @@ Target: http://muda.co/stream/1002001.php
 ----
 
 Start-subtitle: 
+
+----
+
+Link-text: More
+
+----
+
+Target-text: More

@@ -20,3 +20,7 @@ fields:
   target:
     label: Link
     type: text
+    translate: false
+  target_text:
+    label: Link text
+    type: text
