@@ -29,17 +29,5 @@
           </li>
         <?php endif ?>
       <?php endforeach ?>
-        <li><a href="#project">Project</a></li>
-        <li><a href="#calendar">Calendar</a></li>
-        <li><a href="#organization">Organization</a></li>
-        <li><a href="#contactus">Contact us</a></li>
-        <li>
-          <select name="lang" id="lang">
-            <option value="en">ENG</option>
-            <option value="de">GER</option>
-            <option value="fr">FRA</option>
-            <option value="it">ITA</option>
-          </select>
-        </li>
     </nav>
   </header>

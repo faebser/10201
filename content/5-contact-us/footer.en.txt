@@ -1,0 +1,16 @@
+Nav-title: Contact us
+
+----
+
+Title: Contact-us
+
+----
+
+Address: 
+
+(link: mailto:zurich@muda.co text: zurich@muda.co)
++41 44 456 40 50
+
+Museum of Digital Arts
+Pfingstweidstr. 101 CH-8005
+Zurich, Switzerland

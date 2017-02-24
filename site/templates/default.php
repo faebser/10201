@@ -2,43 +2,12 @@
 
   <main class="main" role="main">
     
-    <header>
-      <div id="background">
-        <video height="720" width="1280" src="assets/images/MuDA_small.m4v" autoplay="true" loop="true"></video>
-        <h1>I 0 II 0 I</h1>
-      </div>
-      <p>
-        Examining the area of 1001 by 1001 metres (1002001 m²) surrounding the MuDA, 
-we would like to question and bring to life the data of what it means to live in this community. Through data literacy workshops, talks and events, in collaboration with the School of Data, the MuDA would like to empower participation by the public in our community embracing the power of knowledge.
-      </p>
-    </header>
-
-    <section id="project">
-      <section id="data">
-        <ul>
-          <li><span>15,065</span><span>total population in Kreis 5</span></li>
-          <li><span>32%</span><span>foreigners living in Kreis 5</span></li>
-          <li><span>138</span><span>refugees living and/or taking asylum in Kreis 5</span></li>
-          <li><span>2691.43</span><span>ha2 of Kreis 5 used for garden surfaces
-</span></li>
-          <li><span>450,561</span><span>people working in Kreis 5</span></li>
-        </ul>
-      </section>
-      <section id="text">
-        <h2>The project</h2>
-        <h3>Exploring the definition of what a museum’s roles are within the public sphere, the MuDA wants to develop a project embracing and bridging communities, starting with the zeros and ones in our own physical neighborhood of Kreis 5.</h3>
-        <p>Kicking off in March, I O O I ² is a four phase project that focuses on learning about data literacy 
-whilst highlighting topics of interest within our immediate community. The data workshops are quests to map uncharted territory, discover hidden stories and solve unsolved mysteries about our neighbourhood in the Land of Data. Participants will brainstorm what information helps us be more aware of each other in a local community, be guided through a set of basic data literacy skills, share/clean current data current sources, and discuss potential topics of interest to create new data sets to explore!</p>
-        <p>
-          Gritty vistas of the railroad tracks on one side and the Limmat River on the other, Kreis 5 is made of an eclectic mix of businesses, flats, schools, art galleries, hip restaurants and parks randomly squeezed in between an asylum center planned for 2018, growing families, gridlocked traffic, increasing rent and decreasing industry. Amid the ongoing construction boom, the city expects the population in Zurich West to jump more than 25 per cent up until to 2022.   
-        </p>
-        <p>
-          Beyond the statistics that we read everyday, what is really occurring underneath, within and around all that WE know and experience in Kreis 5? What does it mean to be part of this once abandoned industrial quartier which has undergone a remarkable transformation in recent decades? What are the implications of raising rent, an asylum center, trendy businesses and a growing population? How many trucks pass by the MuDA on a daily basis?
-        </p>
-        <h3>The MuDA will become a platform for this project with aims to help spread data literacy through participatory training, workshops and online tools assisting people to differentiate facts from opinions, statistics from statements - and form enlightened views through weighted analysis, critical thinking, and by asking their own questions. Later the data will be visualised through diverse mediums for the public and community stakeholders to experience.</h3>
-        <h3>Data - Filter - Visualise - Communicate</h3>
-      </section>
-    </section>
+   <?php
+      foreach($pages->visible() as $section) {
+        echo $section->uid() . " ";
+        snippet($section->uid(), array('data' => $section));
+      }
+    ?>
 
     <section id="calendar">
     <h2>Calendar</h2>
@@ -137,13 +106,17 @@ Located in Zurich West — a hot spot for science, technology and art — the Mu
       </ul>
     </section>
 
+
+
     <?php foreach($pages->visible() as $section): ?>
-      <?php echo $section->uid() ?>
-      <?php echo $section->title()->html() ?>
-      <?php echo $section->text()->kirbytext() ?>
-      <?php echo $section->heading_1()->kirbytext() ?>
-      
-    <?php endforeach ?>
+        <?php if ($section->nav_title()): ?>
+          <li>
+            <a href="#<?php echo $section->uid() ?>">
+              <?php echo $section->nav_title()->html() ?>
+            </a>
+          </li>
+        <?php endif ?>
+      <?php endforeach ?>
   </main>
 
 <?php snippet('footer') ?>

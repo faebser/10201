@@ -1,0 +1,14 @@
+title: Footer
+
+files: false
+
+pages: false
+
+fields:
+  nav_title:
+    label: Menu Title
+    type: text
+
+  address:
+    label: Address
+    type: textarea

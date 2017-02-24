@@ -19,10 +19,10 @@ Beyond the statistics that we read everyday, what is really occurring underneath
 
 Heading-2: 
 
-The MuDA will become a platform for this project with aims to help spread data literacy through participatory training, workshops and online tools assisting people to differentiate facts from opinions, statistics from statements - and form enlightened views through weighted analysis, critical thinking, and by asking their own questions. Later the data will be visualised through diverse mediums for the public and community stakeholders to experience.
+### The MuDA will become a platform for this project with aims to help spread data literacy through participatory training, workshops and online tools assisting people to differentiate facts from opinions, statistics from statements - and form enlightened views through weighted analysis, critical thinking, and by asking their own questions. Later the data will be visualised through diverse mediums for the public and community stakeholders to experience.
 
 
-Data - Filter - Visualise - Communicate
+### Data - Filter - Visualise - Communicate
 
 ----
 
