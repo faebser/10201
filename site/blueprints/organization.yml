@@ -1,6 +1,8 @@
 title: Organization
 
-files: image
+files: 
+  sortable: true
+  type: image
 
 pages: false
 

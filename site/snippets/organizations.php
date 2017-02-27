@@ -5,7 +5,7 @@
       <li>
         <div>
           <p><?php echo $orga->byline()->text(); ?></p>
-          <?php foreach($orga->images() as $image): ?>
+          <?php foreach($orga->files()->sortBy('sort', 'asc') as $image): ?>
             <img src="<?php echo $image->url() ?>" alt="<?php echo '' ?>">
           <?php endforeach ?>
         </div>
