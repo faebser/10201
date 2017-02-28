@@ -60,15 +60,14 @@ body > header {
   padding: 0 3rem;
   justify-content: space-between; }
   body > header .logo {
-    height: 50%;
+    height: 65%;
     margin: auto 0;
     display: flex;
     flex-direction: column; }
     body > header .logo img {
       max-height: 100%;
       width: auto;
-      margin: 0 auto;
-      border-bottom: 3px solid black; }
+      margin: 0 auto; }
   body > header nav {
     font-family: 'etter-medium';
     flex-basis: 50%; }
@@ -81,11 +80,15 @@ body > header {
       margin: 0;
       display: flex;
       flex-direction: row; }
+      body > header nav ul li.lang {
+        margin-left: 3rem; }
       body > header nav ul a {
         text-decoration: none;
         color: #000; }
         body > header nav ul a:hover {
           background-color: #ffff00; }
+        body > header nav ul a.active {
+          color: #0000ee; }
       body > header nav ul select {
         border: 2px solid #000;
         height: 100%; }

@@ -15,8 +15,7 @@
 
   <header>
     <div class="logo">
-      <img src="assets/images/muda_logo_black.png" alt="">
-      <!-- <span>School of Data</span> -->
+      <img src="assets/images/1_logo_muda_sod.png" alt="">
     </div>
     <nav>
       <ul>
@@ -29,5 +28,19 @@
           </li>
         <?php endif ?>
       <?php endforeach ?>
+          <li>
+            <a href="http://0lll0l.soda.camp/" target="_blank">
+              Dataset
+            </a>
+          </li>
+          <li class="lang">
+            <a id="en" href="/en">
+              EN
+            </a>
+            &mdash;
+            <a id="de" href="/de">
+              DE
+            </a>
+          </li>
     </nav>
   </header>
