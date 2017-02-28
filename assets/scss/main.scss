@@ -170,7 +170,6 @@ body main {
 				position: absolute;
 				width: 100vw !important;
   				height: auto   !important;
-  				padding: 0 3rem;
   			}
 		}
 
@@ -182,6 +181,7 @@ body main {
 			color: $white;
 			@extend %large;
 			line-height: 1.23;
+			font-family: 'etter-book';
 		}
 	}
 }
@@ -284,7 +284,7 @@ section#calendar {
 
 	h2 {
 		font-weight: normal;
-		@extend %regular;
+		@extend %large;
 		color: $blue;
 	}
 
@@ -426,7 +426,7 @@ section#organization {
 	margin-top: 6rem;
 
 	h2 {
-		@extend %regular;
+		@extend %large;
 		font-family: 'etter-medium';
 		font-weight: normal;
 	}
