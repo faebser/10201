@@ -44,7 +44,7 @@ All rights reserved.
 }
 
 %large {
-	font-size: 1.667rem;
+	font-size: 1.5rem;
 	line-height: 1.1;
 }
 
@@ -67,7 +67,7 @@ ul {
 }
 
 html {
-	font-size: calc(0.3em + 1vw);
+	font-size: calc(0.4em + 1vw);
 	margin: 0;
 	padding: 0;
 }
@@ -75,6 +75,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	background-color: $white;
 }
 
 %container {
@@ -95,6 +96,11 @@ body > header {
 	height: 4rem;
 	padding: 0 3rem;
 	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	background-color: $white;
 	.logo {
 		height: 65%;
 		margin: auto 0;
@@ -154,12 +160,8 @@ body main {
 			justify-content: space-around;
 			position: relative;
 
-			h1 {
-				color: $white;
-				//@extend %xlarge;
-				font-size: 6.5rem;
-				letter-spacing: 1rem;
-				font-weight: normal;
+			img {
+				width: 56%;
 			}
 
 			video {
@@ -178,8 +180,8 @@ body main {
 			text-align: center;
 			padding: 3rem 4rem;
 			color: $white;
-			@extend %regular;
-			line-height: 1.5;
+			@extend %large;
+			line-height: 1.23;
 		}
 	}
 }
