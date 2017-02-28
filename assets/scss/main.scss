@@ -264,7 +264,7 @@ section#calendar {
 		width: 100%;
 		color: $white;
 		li {
-			background-color: $gray;
+			background-color: $blue;
 			color: $white;
 			display: flex;
 			flex-direction: row;
@@ -292,16 +292,16 @@ section#calendar {
 					text-decoration: none;
 					color: $white;
 					@extend %small;
-					border: 4px solid $black;
+					border: 4px solid $white;
 					text-align: center;
 					display: block;
 					padding: 0.5rem 0.5rem;
 					&:hover {
-						background-color: $light-gray;
+						//background-color: $light-gray;
 					}
 					span {
 						@extend %small;
-						color: $black;
+						color: $white;
 						margin-left: 10px;
 					}
 				}
