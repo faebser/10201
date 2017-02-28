@@ -150,7 +150,9 @@ body main {
 
 			h1 {
 				color: $white;
-				@extend %xlarge;
+				//@extend %xlarge;
+				font-size: 6rem;
+				letter-spacing: 1rem;
 				font-weight: normal;
 			}
 
@@ -234,7 +236,7 @@ section#project {
 			font-family: 'etter-medium';
 		}
 		h3 {
-			@extend %regular;	
+			@extend %regular;
 			font-weight: normal;
 		}
 		p {
