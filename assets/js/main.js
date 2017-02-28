@@ -1,7 +1,16 @@
 // execute callback when the page is ready:
 Zepto(function($) {
-	var videoHeight = $('#background video').height();
-	console.log(videoHeight);
+	var videoHeight;
+	fastdom.measure(function m () {
+		videoHeight = $('#background video').height();
+	});
 
-	$('#background').css('height', videoHeight + 'px');
+	fastdom.mutate(function m () {
+		$('#background').css('height', videoHeight + 'px');
+	});
+
+	fastdom.mutate(function mut () {
+		var lang = window.location.pathname.split('/')[1];
+		$('nav a#' + lang).addClass('active');
+	});
 });
