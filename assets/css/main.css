@@ -119,6 +119,7 @@ body main header {
     background-color: #0000ee;
     text-align: center;
     padding: 3rem 4rem;
+    margin-top: -3rem;
     color: #f9f9f9;
     line-height: 1.23;
     font-family: 'etter-book'; }
