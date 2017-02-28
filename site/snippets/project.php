@@ -2,7 +2,10 @@
       <section id="data">
         <ul>
           <?php foreach($data->children()->visible() as $datapoint): ?>
-          <li><span><?php echo $datapoint->title()->text(); ?></span><span><?php echo $datapoint->byline()->text(); ?></span></li>
+          <li>
+            <p><span><?php echo $datapoint->title()->text(); ?></span></p>
+            <p><span><?php echo $datapoint->byline()->text(); ?></span></p>
+            </li>
           <?php endforeach ?>
         </ul>
       </section>
@@ -10,6 +13,10 @@
         <h2><?php echo $data->title()->text(); ?></h2>
         <h3><?php echo $data->heading_1()->text(); ?></h3>
         <?php echo $data->normal_text()->kirbytext(); ?>
-        <?php echo $data->heading_2()->kirbytext(); ?>
       </section>
+</section>
+
+<section id="project2">
+  <img src="assets/images/2_logo project.png">
+  <?php echo $data->heading_2()->kirbytext(); ?>
 </section>

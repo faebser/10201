@@ -45,7 +45,7 @@ All rights reserved.
 
 %large {
 	font-size: 1.5rem;
-	line-height: 1.1;
+	line-height: 1.3;
 }
 
 %xlarge {
@@ -151,7 +151,7 @@ body > header {
 
 body main {
 	header {
-		margin-bottom: 5rem;
+		margin-bottom: 11rem;
 		font-family: 'etter-medium';
 
 		#background {
@@ -211,27 +211,24 @@ section#project {
 			padding: 0;
 			display: flex;
 			flex-direction: column;
-
+			width: 50%;
 
 			li {
-				margin-bottom: 3rem;
-				display: inline-flex;
-				flex-direction: column;
+				margin-bottom: 5rem;
+			}
 
-			}
-			li > span {
-				@extend %xlarge;
+			li > p {
+				font-size: 3.5rem;
+				margin: 0;
 				line-height: 1;
-				display: inline;
 			}
-			li > span + span {
+			li > p + p {
 				@extend %regular;
 				line-height: 1;
 			}
 
 			span {
 				display: inline;
-				padding-right: 1.5rem;
 				&:hover {
 					background-color: $yellow;
 				}
@@ -244,14 +241,36 @@ section#project {
 
 		h2 {
 			font-family: 'etter-medium';
+			@extend %large;
 		}
 		h3 {
-			@extend %regular;
+			@extend %large;
 			font-weight: normal;
 		}
 		p {
-			@extend %small;
+			@extend %regular;
+			margin: 2rem 0 0 0;
 		}
+	}
+}
+
+section#project2 {
+	margin: 4rem 0 0 0;
+	display: flex;
+	flex-direction: column;
+
+	img {
+		width: 75%;
+		height: auto;
+		margin: 0 0 0 auto;
+	}
+	h3 {
+		@extend %large;
+		width: 75%;
+		margin: 4rem 0 0 0;
+		font-weight: normal;
+		font-family: 'etter-book';
+		color: $blue;
 	}
 }
 
