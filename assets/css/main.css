@@ -100,7 +100,7 @@ body main header {
     position: relative; }
     body main header #background h1 {
       color: #fff;
-      font-size: 6rem;
+      font-size: 6.5rem;
       letter-spacing: 1rem;
       font-weight: normal; }
     body main header #background video {
@@ -111,9 +111,11 @@ body main header {
       height: auto   !important;
       padding: 0 3rem; }
   body main header p {
-    background-color: #808080;
+    background-color: #0000ee;
+    text-align: center;
     padding: 3rem 4rem;
-    color: #fff; }
+    color: #fff;
+    line-height: 1.5; }
 
 section#project {
   padding: 0;

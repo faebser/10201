@@ -151,7 +151,7 @@ body main {
 			h1 {
 				color: $white;
 				//@extend %xlarge;
-				font-size: 6rem;
+				font-size: 6.5rem;
 				letter-spacing: 1rem;
 				font-weight: normal;
 			}
@@ -168,10 +168,12 @@ body main {
 
 		p {
 			@extend %container;
-			background-color: $gray;
+			background-color: $blue;
+			text-align: center;
 			padding: 3rem 4rem;
 			color: $white;
 			@extend %regular;
+			line-height: 1.5;
 		}
 	}
 }
