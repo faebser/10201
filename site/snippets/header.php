@@ -34,12 +34,16 @@
             </a>
           </li>
           <li class="lang">
-            <a id="en" href="/en">
+            <a id="en" href="/iooiiooi/en">
               EN
             </a>
             &mdash;
-            <a id="de" href="/de">
+            <a id="de" href="/iooiiooi/en">
               DE
+            </a>
+            &mdash;
+            <a id="fr" href="/iooiiooi/en">
+              FR
             </a>
           </li>
     </nav>

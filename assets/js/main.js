@@ -10,7 +10,7 @@ Zepto(function($) {
 	});
 
 	fastdom.mutate(function mut () {
-		var lang = window.location.pathname.split('/')[1];
+		var lang = window.location.pathname.split('/iooiiooi/')[1];
 		$('nav a#' + lang).addClass('active');
 	});
 });
