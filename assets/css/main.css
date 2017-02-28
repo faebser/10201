@@ -105,15 +105,15 @@ body main header {
   body main header #background {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    position: relative; }
+    justify-content: space-around; }
     body main header #background img {
       width: 56%; }
     body main header #background video {
       top: 0;
+      left: 0;
       z-index: -1;
       position: absolute;
-      width: 100vw !important;
+      width: 100% !important;
       height: auto   !important; }
   body main header p {
     background-color: #0000ee;
