@@ -309,6 +309,8 @@ section#organization {
     section#organization li div img {
       max-width: 100%;
       margin-bottom: 1rem; }
+    section#organization li div p + img {
+      width: 50%; }
 
 footer {
   margin-top: 5rem;
