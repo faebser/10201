@@ -51,7 +51,9 @@ body {
 body main, body main header p, section#project, section#calendar, section#mail, section#organization {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto; }
+
+body main {
   padding: 0 3rem; }
 
 body > header {
