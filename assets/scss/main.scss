@@ -133,6 +133,7 @@ body > header {
 			}
 			a {
 				text-decoration: none;
+				@extend %small;
 				color: $black;
 				&:hover {
 					background-color: $yellow;

@@ -15,7 +15,7 @@ All rights reserved.
   src: url("../fonts/EtterCI-Medium.eot") format("embedded-opentype"), url("../fonts/EtterCI-Medium.woff") format("woff"), url("../fonts/EtterCI-Medium.ttf") format("truetype"), url("../fonts/EtterCI-Medium.svg#CircularStdMediumRegular") format("svg");
   font-weight: normal;
   font-style: normal; }
-section#calendar ul li > div span + span, section#calendar ul li > div a, section#calendar ul li > div a span, section#organization li div p, footer p {
+body > header nav ul a, section#calendar ul li > div span + span, section#calendar ul li > div a, section#calendar ul li > div a span, section#organization li div p, footer p {
   font-size: 0.8rem;
   line-height: 1.3; }
 

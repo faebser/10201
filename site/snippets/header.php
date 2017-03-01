@@ -29,7 +29,7 @@
         <?php endif ?>
       <?php endforeach ?>
           <li>
-            <a href="http://0lll0l.soda.camp/" target="_blank">
+            <a href="http://bd.schoolofdata.ch/event/1/" target="_blank">
               Dataset
             </a>
           </li>

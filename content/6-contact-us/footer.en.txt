@@ -1,4 +1,4 @@
-Nav-title: Contact us
+Nav-title: Contact
 
 ----
 

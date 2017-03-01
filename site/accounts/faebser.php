@@ -7,8 +7,8 @@ email: 12@23.ch
 language: en
 role: admin
 history:
+  - contact-us
   - organization/soda
   - organization/muda
   - organization
   - project
-  - email
