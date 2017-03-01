@@ -93,6 +93,9 @@ body > header {
       flex-direction: row; }
       body > header nav ul li.lang {
         margin-left: 3rem; }
+      body > header nav ul li.dataset a {
+        border: 2px solid #000;
+        padding: 0.5rem 0.4rem; }
       body > header nav ul a {
         text-decoration: none;
         color: #000; }
@@ -327,5 +330,8 @@ footer {
     font-family: 'etter-medium'; }
   footer p {
     font-family: 'etter-book'; }
+    footer p a {
+      color: #f9f9f9;
+      text-decoration: none; }
 
 /*# sourceMappingURL=main.css.map */

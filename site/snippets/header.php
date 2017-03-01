@@ -28,9 +28,9 @@
           </li>
         <?php endif ?>
       <?php endforeach ?>
-          <li>
+          <li class="dataset">
             <a href="http://bd.schoolofdata.ch/event/1/" target="_blank">
-              Dataset
+              Dataset &rarr;
             </a>
           </li>
           <li class="lang">

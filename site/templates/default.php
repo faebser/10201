@@ -10,4 +10,10 @@
     ?>
   </main>
 
-<?php snippet('footer') ?>
+<?php
+    foreach($pages->visible() as $section) {
+      if ($section->intendedTemplate() == "footer") {
+        snippet($section->intendedTemplate(), array('data' => $section));
+      }
+    }
+  ?>

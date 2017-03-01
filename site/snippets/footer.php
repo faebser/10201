@@ -1,8 +1,6 @@
   <footer role="contentinfo" id="contactus">
-    <h2>Contact us</h2>
-    <p>Basdfasdf</p>
-    <p></p>
-    <p></p>
+    <h2><?php echo $data->nav_title()->text(); ?></h2>
+    <?php echo $data->address()->kirbytext(); ?>
   </footer>
 
   <script src="assets/js/zepto.js"></script>
