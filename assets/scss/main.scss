@@ -73,6 +73,9 @@ html {
 	@media screen and (min-width: 1300px) {
 		font-size: 100%;
 	}
+	@media screen and (max-width: 500px) {
+		font-size: 65%;
+	}
 }
 
 body {
@@ -119,8 +122,13 @@ body > header {
 	nav {
 		font-family: 'etter-medium';
 		flex-basis: 56%;
+
+		@media screen and (max-width: 1100px) {
+			flex-basis: 80%;
+		}
 		ul {
 			height: 100%;
+			width: 100%;
 			list-style-type: none;
 			justify-content: space-around;
 			align-items: center;
@@ -128,6 +136,10 @@ body > header {
 			margin: 0;
 			display: flex;
 			flex-direction: row;
+
+			@media screen and (max-width: 600px) {
+				justify-content: flex-end;
+			}
 			li {
 				@extend %regular;
 
@@ -137,6 +149,18 @@ body > header {
 				&.dataset a {
 					border: 2px solid $black;
 					padding: 0.5rem 0.6rem;
+				}
+				@media screen and (max-width: 600px) {
+					display: none;
+
+					&.lang,
+					&.dataset {
+						display: inline;
+					}
+
+					&.lang {
+						margin-left: 1rem;
+					}
 				}
 			}
 			a {
@@ -234,7 +258,7 @@ section#project {
 			}
 			li > p + p {
 				@extend %regular;
-				line-height: 1;
+				line-height: 1.1;
 			}
 
 			span {
@@ -339,6 +363,9 @@ section#calendar {
 					&:hover {
 						//background-color: $light-gray;
 					}
+					@media screen and (max-width: 500px) {
+						border: 2px solid $white;
+					}
 					span {
 						@extend %small;
 						color: $white;
@@ -356,6 +383,9 @@ section#calendar {
 				width: 15%;
 				text-align: left;
 				padding-right: 0;
+				@media screen and (max-width: 500px) {
+					width: 30%;
+				}
 			}
 			.date > span {
 				
@@ -422,6 +452,9 @@ section#mail {
 				border-color: $blue;
 				color: $blue;
 			}
+			@media screen and (max-width: 500px) {
+				border: 2px solid $black;
+			}
 		}
 	}
 }
@@ -475,6 +508,10 @@ section#organization {
 			&:hover {
 				border-color: $blue;
     			color: $blue;
+			}
+
+			@media screen and (max-width: 500px) {
+				border: 2px solid $black;
 			}
 		}
 
