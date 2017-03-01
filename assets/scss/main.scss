@@ -70,6 +70,9 @@ html {
 	font-size: calc(0.4em + 1vw);
 	margin: 0;
 	padding: 0;
+	@media screen and (min-width: 1300px) {
+		font-size: 100%;
+	}
 }
 
 body {
@@ -80,7 +83,7 @@ body {
 
 %container {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1300px;
 	margin: 0 auto;
 }
 
@@ -257,7 +260,7 @@ section#project {
 }
 
 section#project2 {
-	margin: 4rem 0 0 0;
+	margin: 4rem 0 11rem 0;
 	display: flex;
 	flex-direction: column;
 
@@ -282,7 +285,6 @@ section#calendar {
 	flex-direction: column;
 	align-items: center;
 	font-family: 'etter-medium';
-	margin-top: 6rem;
 
 	h2 {
 		font-weight: normal;
@@ -363,7 +365,7 @@ section#calendar {
 section#mail {
 	color: $blue;
 	@extend %container;
-	margin-top: 1rem;
+	margin: 1rem 0 11rem 0;
 
 	div {
 		background-color: $light-gray;
@@ -435,7 +437,7 @@ section#organization {
 
 	li {
 		display: flex;
-		margin-bottom: 1.5rem;
+		margin-bottom: 6rem;
 		div {
 			width: 50%;
 			@extend %regular;
@@ -450,8 +452,11 @@ section#organization {
 			margin-bottom: 1.5rem;
 		}
 		div + div p {
-			@extend %regular;
+			@extend %large;
 			margin-bottom: 1.5rem;
+		}
+		div + div p + p {
+			@extend %regular;
 		}
 		div a {
 			font-family: 'etter-book';
