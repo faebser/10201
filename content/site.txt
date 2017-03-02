@@ -1,12 +1,12 @@
-Title: Kirby Starterkit
+Title: iooiiooi
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: MuDA Zürich
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: Examining the area of I OO I m² surrounding the MuDA, we would like to question and bring to life the data of what it means to live in this community. Through data literacy workshops, talks and events in collaboration with the School of Data, the MuDA would like to empower the public embracing the power of knowledge.
 
 ----
 

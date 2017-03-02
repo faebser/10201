@@ -78,4 +78,7 @@ c::set('languages', array(
 // lang auto detect
 c::set('language.detect', true);
 // changed date handler for langs
-c::set('date.handler', 'strftime'); 
+c::set('date.handler', 'strftime');
+
+// activated cache
+c::set('cache', true);

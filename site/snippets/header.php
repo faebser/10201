@@ -29,7 +29,7 @@
         <?php endif ?>
       <?php endforeach ?>
           <li class="dataset">
-            <a href="http://bd.schoolofdata.ch/event/1/" target="_blank">
+            <a href="http://bd.schoolofdata.ch/event/1" target="_blank">
               Dataset &rarr;
             </a>
           </li>
@@ -38,13 +38,14 @@
               EN
             </a>
             &mdash;
-            <a id="de" href="/iooiiooi/en">
+            <a id="de" href="/iooiiooi/de">
               DE
             </a>
-            &mdash;
+            <!--&mdash;
             <a id="fr" href="/iooiiooi/en">
               FR
-            </a>
+            </a> -->
           </li>
+        </ul>
     </nav>
   </header>
