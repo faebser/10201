@@ -11,7 +11,7 @@
         </div>
         <div>
           <?php echo $orga->description()->kirbytext(); ?>
-          <a href="<?php echo $orga->link()->text(); ?>"><?php echo $orga->link_text()->text(); ?> &rarr;</a>
+          <a href="<?php echo $orga->link()->text(); ?>"><?php echo $orga->link_text()->text(); ?></a>
         </div>
       </li>
     <?php endforeach ?>

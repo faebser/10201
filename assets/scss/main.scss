@@ -95,6 +95,12 @@ body main {
 	padding: 0 3rem;
 }
 
+body p,
+body h2 {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
 
 body > header {
 	display: flex;
@@ -309,6 +315,7 @@ section#project2 {
 }
 
 section#calendar {
+	max-width: 800px;
 	@extend %container;
 	display: flex;
 	flex-direction: column;
@@ -398,9 +405,10 @@ section#calendar {
 }
 
 section#mail {
+	max-width: 800px;
 	color: $blue;
 	@extend %container;
-	margin: 1rem 0 11rem 0;
+	margin: 1rem auto 11rem auto;
 
 	div {
 		background-color: $light-gray;
@@ -502,7 +510,8 @@ section#organization {
 			display: inline-block;
 			@extend %regular;
 			color: $black;
-			padding: 0.2rem 1rem;
+			margin-top: 2rem;
+			padding: 0.8rem 1rem;
 			border: 4px solid $black;
 			transition: 0.6s;
 			&:hover {
@@ -567,32 +576,42 @@ section#contact-us {
 	
 
 	a {
-		@extend %large;
+		@extend %regular;
 		font-family: 'etter-book';
 		color: $black;
 		border: 4px solid $black;
-		padding: 0.2rem 1rem;
+		padding: 0.8rem 1rem;
+		margin-top: 2rem;
+		display: inline-block;
+		&:hover {
+			color: $blue;
+			border-color: $blue;
+		}
 	}
 
 	p > a {
 		color: $blue;
+		display: inline;
+		@extend %large;
 		border: none;
+		margin-top: 0;
 		border-bottom: 4px solid $black;
 		padding: 0;
 		&:hover {
 			background-color: $yellow;
+			color: $black;
+			border-color: $black;
 		}
 	}
 }
 
 footer {
-	margin-top: 5rem;
+	margin-top: 6rem;
 	width: 100%;
-	padding: 3rem 3rem;
-	background-color: $blue;
+	padding: 3rem 3rem 0 3rem;
+	background-color: $black;
 	display: flex;
 	flex-direction: column;
-	color: $white;
 	align-items: center;
 
 	h2 {
@@ -600,12 +619,14 @@ footer {
 		font-family: 'etter-medium';
 	}
 
+	img {
+		max-width: 100%;
+	}
+
 	p {
+		margin-top: 1rem;
 		@extend %small;
+		color: $blue;
 		font-family: 'etter-book';
-		a {
-			color: $white;
-			text-decoration: none;
-		}
 	}
 }
