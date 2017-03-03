@@ -81,4 +81,4 @@ c::set('language.detect', true);
 c::set('date.handler', 'strftime');
 
 // activated cache
-c::set('cache', true);
+//c::set('cache', true);

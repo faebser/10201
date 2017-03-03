@@ -15,9 +15,5 @@
         </div>
       </li>
     <?php endforeach ?>
-    <li>
-      <div></div>
-      <div></div>
-    </li>
   </ul>
 </section>

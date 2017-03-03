@@ -526,6 +526,65 @@ section#organization {
 	}
 }
 
+section#contact-us {
+	display: flex;
+	flex-direction: row;
+
+	& > div {
+		width: 25%;
+	}
+
+	section {
+		flex-basis: 75%;
+		display: flex;
+		flex-direction: row;
+
+		& > div {
+			margin-right: 3rem;
+		}
+		& div + div {
+			margin-right: 0;
+		}
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	h2 {
+		@extend %large;
+		font-family: 'etter-medium';
+    	font-weight: normal;
+    	color: $blue;
+    	margin: 0;
+	}
+	p {
+		@extend %large;
+		font-family: 'etter-book';
+		color: $blue;
+		white-space: nowrap;
+	}
+	
+
+	a {
+		@extend %large;
+		font-family: 'etter-book';
+		color: $black;
+		border: 4px solid $black;
+		padding: 0.2rem 1rem;
+	}
+
+	p > a {
+		color: $blue;
+		border: none;
+		border-bottom: 4px solid $black;
+		padding: 0;
+		&:hover {
+			background-color: $yellow;
+		}
+	}
+}
+
 footer {
 	margin-top: 5rem;
 	width: 100%;

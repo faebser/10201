@@ -42,7 +42,7 @@
               DE
             </a>
             <!--&mdash;
-            <a id="fr" href="/iooiiooi/en">
+            <a id="fr" href="/iooiiooi/fr">
               FR
             </a> -->
           </li>
