@@ -228,7 +228,7 @@ section#calendar {
       color: #f9f9f9;
       display: flex;
       flex-direction: row;
-      padding: 1rem 0.75rem;
+      padding: 1.5rem 0.75rem;
       margin-bottom: 0.75rem; }
       section#calendar ul li > div {
         font-family: 'etter-book';
@@ -373,7 +373,8 @@ section#contact-us {
     font-family: 'etter-medium';
     font-weight: normal;
     color: #0000ee;
-    margin: 0; }
+    margin: 0;
+    margin-bottom: 1rem; }
   section#contact-us p {
     font-family: 'etter-book';
     color: #0000ee;
