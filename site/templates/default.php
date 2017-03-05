@@ -11,7 +11,7 @@
   </main>
 
   <footer>
-     <img src="assets/images/2_logo project.png">
+     <img src="assets/images/2_logo_project.png">
      <p>MuDA 2017, page made by Giulia & Fabian</p>
   </footer>
 

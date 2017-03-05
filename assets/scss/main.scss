@@ -575,10 +575,36 @@ section#contact-us {
 		margin-top: 0;
 		border-bottom: 3px solid $black;
 		padding: 0;
+		transition: 0.6s;
+		background-color: transparent;
 		&:hover {
 			background-color: $yellow;
 			color: $black;
 			border-color: $black;
+		}
+	}
+
+	p.social {
+		width: 100%;
+		margin-top: 3rem;
+		display: flex;
+		a {
+			width: 16.666666667%;
+			max-width: 40px;
+			padding-bottom: 0;
+			border: none;
+			transition: 0.6s;
+			opacity: 0.5;
+
+			&:hover {
+				background-color: transparent;
+				opacity: 1;
+			}
+
+			img {
+				max-width: 100%;
+				height: auto;
+			}
 		}
 	}
 }
