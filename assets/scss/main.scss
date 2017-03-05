@@ -425,44 +425,21 @@ section#mail {
 		margin-top: 0;
 	}
 
-	form {
-		input {
-			border: 3px solid $blue;
-			background: $blue;
-			@extend %regular;
-			color: $white;
-			font-family: 'etter-book';
-			padding: 0.2rem 3rem;
-
-			&::placeholder {
-				color: $white;
-			}
-			&::-moz-placeholder {
-				color: $white;
-			}
-			&::-webkit-input-placeholder {
-				color: $white;
-			}
-			&:-ms-input-placeholder {
-				color: $white;
-			}
+	a {
+		background-color: $light-gray;
+		color: $black;
+		border: 3px solid $black;
+		padding: 0.2rem 1rem;
+		margin-left: 1rem;
+		cursor: pointer;
+		transition: 0.6s;
+		font-family: 'etter-book';
+		&:hover {
+			border-color: $blue;
+			color: $blue;
 		}
-
-		input[type=submit] {
-			background-color: $light-gray;
-			color: $black;
-			border: 3px solid $black;
-			padding: 0.2rem 1rem;
-			margin-left: 1rem;
-			cursor: pointer;
-			transition: 0.6s;
-			&:hover {
-				border-color: $blue;
-				color: $blue;
-			}
-			@media screen and (max-width: 500px) {
-				border: 2px solid $black;
-			}
+		@media screen and (max-width: 500px) {
+			border: 2px solid $black;
 		}
 	}
 }
