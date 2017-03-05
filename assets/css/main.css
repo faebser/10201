@@ -246,7 +246,7 @@ section#calendar {
         section#calendar ul li > div a {
           text-decoration: none;
           color: #f9f9f9;
-          border: 4px solid #f9f9f9;
+          border: 3px solid #f9f9f9;
           text-align: center;
           display: block;
           padding: 0.5rem 0.5rem; }
@@ -283,7 +283,7 @@ section#mail {
     font-weight: normal;
     margin-top: 0; }
   section#mail form input {
-    border: 4px solid #0000ee;
+    border: 3px solid #0000ee;
     background: #0000ee;
     color: #f9f9f9;
     font-family: 'etter-book';
@@ -299,7 +299,7 @@ section#mail {
   section#mail form input[type=submit] {
     background-color: #f0f0f0;
     color: #000;
-    border: 4px solid #000;
+    border: 3px solid #000;
     padding: 0.2rem 1rem;
     margin-left: 1rem;
     cursor: pointer;
@@ -340,7 +340,7 @@ section#organization {
       color: #000;
       margin-top: 2rem;
       padding: 0.8rem 1rem;
-      border: 4px solid #000;
+      border: 3px solid #000;
       transition: 0.6s; }
       section#organization li div a:hover {
         border-color: #0000ee;
@@ -382,7 +382,7 @@ section#contact-us {
   section#contact-us a {
     font-family: 'etter-book';
     color: #000;
-    border: 4px solid #000;
+    border: 3px solid #000;
     padding: 0.8rem 1rem;
     margin-top: 2rem;
     display: inline-block; }
@@ -394,7 +394,7 @@ section#contact-us {
     display: inline;
     border: none;
     margin-top: 0;
-    border-bottom: 4px solid #000;
+    border-bottom: 3px solid #000;
     padding: 0; }
     section#contact-us p > a:hover {
       background-color: #ffff00;
