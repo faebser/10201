@@ -1,84 +1,25 @@
-# Kirby
+# Contribution guide for giulia
 
-Kirby is a file-based CMS.
-Easy to setup. Easy to use. Flexible as hell.
+Okay giulia, are you ready? This is going to hurt a bit :)
 
-## Trial
+## setting up github desktop and check out repo
 
-You can try Kirby on your local machine or on a test
-server as long as you need to make sure it is the right
-tool for your next project.
+* first install github desktop from https://desktop.github.com/
+* then go to the [repository](https://github.com/faebser/10201)
+* and check it out with the github software
+* now the code is on your harddisk and ready to edit it BUT
 
-## Buy a license
+## setting up your computer for php/scss
 
-You can purchase your Kirby license at
-<https://getkirby.com/buy>
-
-A Kirby license is valid for a single domain. You can find
-Kirby's license agreement here: <https://getkirby.com/license>
-
-## The Starterkit
-
-Kirby's Starterkit comes with a small demo website and a fully
-configured panel. Feel free to modify it and play with it as
-much as you like.
-
-There's also the [Langkit](https://github.com/getkirby/langkit.git)
-in case you need a multi-language installation.
-
-## The Panel
-
-You can find the login for Kirby's admin interface at
-http://yourdomain.com/panel. You will be guided through the signup
-process for your first user, when you visit the panel
-for the first time.
-
-## Installation
-
-Kirby does not require a database, which makes it very easy to
-install. Just copy Kirby's files to your server and visit the
-URL for your website in the browser.
-
-**Please check if the invisible .htaccess file has been
-copied to your server correctly**
-
-### Requirements
-
-Kirby runs on PHP 5.4+, Apache or Nginx.
-
-### Download
-
-You can download the latest version of the Starterkit
-from https://download.getkirby.com
-
-### With Git
-
-If you are familiar with Git, you can clone Kirby's
-Starterkit repository from Github.
-
-    git clone https://github.com/getkirby/starterkit.git
-
-## Documentation
-
-<https://getkirby.com/docs>
-
-## Issues and feedback
-
-If you have a Github account, please report issues
-directly on Github:
-
-- <https://github.com/getkirby/kirby/issues>
-- <https://github.com/getkirby/panel/issues>
-- <https://github.com/getkirby/starterkit/issues>
-
-Otherwise you can use Kirby's forum: https://forum.getkirby.com
-or send us an email: <support@getkirby.com>
-
-## Support
-
-<https://getkirby.com/support>
-
-## Copyright
-
-© 2009-2016 Bastian Allgeier (Bastian Allgeier GmbH)
-<http://getkirby.com>
+* Open a terminal window
+* type in ```php -v``` if should show something like this:
+```bash
+PHP 7.1.2 (cli) (built: Feb 14 2017 21:24:49) ( NTS )
+Copyright (c) 1997-2017 The PHP Group
+Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
+```
+* if the output is something like ```command not found``` you need to install PHP (maybe ask your roommate ;) )
+* Now inside of the terminal window use the ```cd``` command to change into the directory of the repository. like ```cd /home/giulia/git/10201```
+* In the directory run ```php -S localhost:8000``` to start the PHP development server
+* switch to your browser and type ```localhost:8000``` into the address bar
+* if it show the muda homepage you were successfull otherwise not ;)
