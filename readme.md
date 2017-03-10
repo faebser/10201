@@ -33,3 +33,6 @@ Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
 * Run the following command ```sass --watch scss/:css/```
 * That means that sass will watch our scss files in the scss folder and if you change something in them, it will transform them into a css files and place it into the css/ folder
 * Preparations are finished :D
+
+## Actually fixing an issue
+
