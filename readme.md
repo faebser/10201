@@ -36,5 +36,5 @@ Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
 
 ## Actually fixing an issue
 
-i'm gonna write that tomorrow ;)
+* start with the image issue: https://github.com/faebser/10201/issues/12#issuecomment-286704126
 
