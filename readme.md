@@ -28,7 +28,7 @@ Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
 * Type ```gem install sass```
 * After the commands is finished, type ```sass -v``` to see if it works
 * Now you need again to move into the folder of the repository with the ```cd``` command
-* The scss files are not located in the root of the repository folder but at asses/scss
+* The scss files are not located in the root of the repository folder but at assets/scss
 * To start the transformation ```cd``` into the assets folder
 * Run the following command ```sass --watch scss/:css/```
 * That means that sass will watch our scss files in the scss folder and if you change something in them, it will transform them into a css files and place it into the css/ folder
@@ -36,5 +36,6 @@ Zend Engine v3.1.0, Copyright (c) 1998-2017 Zend Technologies
 
 ## Actually fixing an issue
 
+* *ALWAYS* start both the development server with ```php -S localhost:8000``` and sass with ```sass --watch scss/:css/```
 * start with the image issue: https://github.com/faebser/10201/issues/12#issuecomment-286704126
 
