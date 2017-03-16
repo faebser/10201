@@ -281,7 +281,7 @@ section#mail {
   section#mail h2 {
     font-family: 'etter-medium';
     font-weight: normal;
-    margin-top: 0; }
+    margin-top: 0.6rem;}
   section#mail a {
     background-color: #f0f0f0;
     color: #000;
@@ -290,11 +290,12 @@ section#mail {
     margin-left: 1rem;
     cursor: pointer;
     transition: 0.6s;
-    font-family: 'etter-book'; }
+    font-family: 'etter-book';
+    text-decoration: none;
+    margin-bottom: 0.6rem;}
     section#mail a:hover {
       border-color: #0000ee;
-      color: #0000ee;
-      text-decoration: none}
+      color: #0000ee;}
     @media screen and (max-width: 500px) {
       section#mail a {
         border: 2px solid #000; } }
