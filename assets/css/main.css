@@ -286,14 +286,15 @@ section#mail {
     background-color: #f0f0f0;
     color: #000;
     border: 3px solid #000;
-    padding: 0.2rem 1rem;
+    padding: 0.8rem 2rem;
     margin-left: 1rem;
     cursor: pointer;
     transition: 0.6s;
     font-family: 'etter-book'; }
     section#mail a:hover {
       border-color: #0000ee;
-      color: #0000ee; }
+      color: #0000ee;
+      text-decoration: none}
     @media screen and (max-width: 500px) {
       section#mail a {
         border: 2px solid #000; } }
