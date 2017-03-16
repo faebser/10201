@@ -308,7 +308,8 @@ section#organization {
   margin-top: 6rem; }
   section#organization h2 {
     font-family: 'etter-medium';
-    font-weight: normal; }
+    font-weight: normal;
+    margin-bottom: 1rem;}
   section#organization li {
     display: flex;
     margin-bottom: 6rem; }
