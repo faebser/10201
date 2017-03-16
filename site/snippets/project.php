@@ -17,6 +17,6 @@
 </section>
 
 <section id="project2">
-  <img src="assets/images/1001_hero.jpg">
+  <img src="assets/images/6_working1.png">
   <?php echo $data->heading_2()->kirbytext(); ?>
 </section>
